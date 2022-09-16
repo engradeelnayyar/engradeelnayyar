@@ -1,4 +1,9 @@
-### Hi there 👋
+### I am Khurram Shahzad
+- Accountant 
+- Data Analyst
+- Teacher
+- Translator
+- Striving to become self taught Developer
 
 <!--
 **khurramshahzadlali/khurramshahzadlali** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
