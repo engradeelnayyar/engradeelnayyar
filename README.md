@@ -1,21 +1,28 @@
-# Notes
+
+
+### Front End Development
+#### Front End Development Languages
+  - ##### HTML (Hyper Text Markup Language)
+  - ##### CSS (Casecading Style Sheet)
+  - ##### Java Script 
+
+## HTML (Hyper Text Markup Language)
+## CSS (Casecading Style Sheet)
 ## Java Script
 ### Java Script Concepts
-#### Functions and Objects
 
-##### Example Creating Objects and Functions in Java Script
+#### Functions and Objects
+##### Example Creating Objects and functions in Java Script
 ```js
-    let student = {
-        name: "Khurram", 
-        marks: 1000, 
-        class: "B.Com",
+    let object = {
+        key1: "string1", 
+        key2: Number, 
+        key3: "string2",
     }
 ```
-Above code is an example of creating an object in java script where ```student``` is an object with keys: ```name```, ```marks``` and ```class```. In the below code this object is used in below function to create a string ```Khurram secured 1000 marks in B.Com.``` that will be output when ```logData``` function is called.
-```js
 function logData() {
-       console.log(student.name + " secured " + student.marks + " marks in " + student.class + "."
-  }
+       console.log(object.key1 + "required string" + object.key2 + object.key3
+}
     logData()
 ```
 <!--
