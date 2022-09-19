@@ -19,8 +19,8 @@
         key2: Number, 
         key3: "string2",
     }
-function logData() {
+    function logData() {
        console.log(object.key1 + "required string" + object.key2 + object.key3
-}
+    }
     logData()
 ```
