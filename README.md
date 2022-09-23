@@ -8,6 +8,10 @@
 
 ## HTML (Hyper Text Markup Language)
 ## CSS (Casecading Style Sheet)
+### CSS Variables Declaration
+ - CSS Variables are often declared in `:root` in order to make them use everywhere.
+ - `:root` is the highest level of selector in CSS. 
+~Resource freeCodeCamp RWD Curriculum.
 ## Java Script
 ### Java Script Concepts
 
