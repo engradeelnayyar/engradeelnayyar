@@ -8,10 +8,19 @@
 
 ## HTML (Hyper Text Markup Language)
 ## CSS (Casecading Style Sheet)
-### CSS Variables Declaration
+### CSS Selectors
+#### CSS Variables Declaration
  - CSS Variables are often declared in `:root` Selector in order to make them use everywhere.
  - `:root` Selector is the highest level of selector in CSS. 
-~Resource freeCodeCamp RWD Curriculum.
+  > Resource freeCodeCamp RWD Curriculum.
+### CSS Comments
+  We can comment in CSS as below:
+```css /* Comment Here */ ```
+### CSS Gradient
+Gradients in CSS are a way to transition between colors across the distance of an element. They are applied to the background property and the syntax looks like this:
+
+
+
 ## Java Script
 ### Java Script Concepts
 
