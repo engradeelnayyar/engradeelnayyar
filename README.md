@@ -44,18 +44,3 @@ Here, it will transition from color1 to color2 between 0% and 20% of the element
  RWD Curriculum
 
 ## Java Script
-### Java Script Concepts
-
-#### Functions and Objects
-##### Example Creating Objects and functions in Java Script
-```js
-    let object = {
-        key1: "string1", 
-        key2: Number, 
-        key3: "string2",
-    }
-    function logData() {
-       console.log(object.key1 + "required string" + object.key2 + object.key3
-    }
-    logData()
-```
