@@ -77,6 +77,5 @@ A(Amazon ID)-.-C(Seller Account)
 - Utility Bill
 - Bank Statement(Just Required for Proof of Account and Address Etc)
 - Debit/Credit Card (Master or Visa)
-- 
 
 
