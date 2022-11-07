@@ -1,4 +1,4 @@
-
+# Amazon and Virtual Assistant
 
 ---
 
@@ -48,6 +48,8 @@ D[Selling Services] ---> M[Virtual Assistant]
 
 ---
 
+### Tools for Winning Products
+
 ```mermaid
 
 graph TD
@@ -59,6 +61,8 @@ B{Tools}-->E[Jungle Scout]
 
 ```
 ---
+### Amazon Account Types
+
 
 ```mermaid
 
@@ -72,6 +76,7 @@ A(Amazon ID)-.-C(Seller Account)
 
 ### Amazon Seller Account Requirements
 
+- Amazon Seller Account can be created from 105 Countries
 - Passport or ID Card
 - Email Address
 - Mobile Number
