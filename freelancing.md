@@ -1,6 +1,4 @@
 # FREELANCING
-## Freelance Market Places
-
 
 ```mermaid
 
@@ -13,5 +11,18 @@ A[Freelance Market Places]-->C[Digital Stocks]
 A[Freelance Market Places]-->D[Microjob]
 A[Freelance Market Places]-->E[Social Media]
 A[Freelance Market Places]-->F[Clssified Ad-Site]
+
+```
+---
+```mermaid
+
+graph TD
+
+A[Types of Communicaion]-->B[Verbal]
+A[Types of Communicaion]-->B[Non-Verbal]
+A[Types of Communicaion]-->B[Written]
+A[Types of Communicaion]-->B[Visual]
+A[Types of Communicaion]-->B[Listening]
+
 
 ```
