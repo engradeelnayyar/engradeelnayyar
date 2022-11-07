@@ -1,19 +1,8 @@
-## Online Markets
 
-These are the market places where different sellers sell their products. The buyers order these products virtually and these products are delivered as per their orders by these sellers via platfarm on which these sellers are registered.
-
-Some examples of big online markets are:
-- Amazon
-- Ebay
-- Etsy
-- Wallmart
-- Daraz
-- Ali Express
-- Ali Baba
 
 ---
 
-## Income Opportunities in Amazon World as an Investor
+### Income Opportunities in Amazon World as an Investor
  
 ```mermaid
 
@@ -39,11 +28,11 @@ D[Selling Services] ---> M[Virtual Assistant]
 
 ### Advantages and Disadvantages of Private Label
 #### Advantages
-- Brand is building
-- Asset Flip
+- Building Brand
+- Once brand is build asset can be flipped
 - Higher incomes in case product succeeded
 #### Disadvantages
-- Require higher costs like marketing etc
+- Require higher costs
 - Long Process
 - Higher Risk Factor
 - Risk of Insolvency
@@ -52,8 +41,10 @@ D[Selling Services] ---> M[Virtual Assistant]
 
 #### Advantages
 - Low Risk Factor
+- Require no high investment
 #### Disadvantages
 - Not higher profits
+- No own brand building
 
 ---
 
