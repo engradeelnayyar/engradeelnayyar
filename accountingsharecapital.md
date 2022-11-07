@@ -10,7 +10,7 @@ A[Shares]-->B[General Public]
 A[Shares]-->C[Directors]
 A[Shares]-->D[Promoters]
 A[Shares]-->E[Purchase Consideration]
-A[Shares]-->E[Under Writers]
+A[Shares]-->F[Under Writers]
 
 ```
 
