@@ -19,10 +19,10 @@ A[Freelance Market Places]-->F[Clssified Ad-Site]
 graph TD
 
 A[Types of Communicaion]-->B[Verbal]
-A[Types of Communicaion]-->B[Non-Verbal]
-A[Types of Communicaion]-->B[Written]
-A[Types of Communicaion]-->B[Visual]
-A[Types of Communicaion]-->B[Listening]
+A[Types of Communicaion]-->C[Non-Verbal]
+A[Types of Communicaion]-->D[Written]
+A[Types of Communicaion]-->E[Visual]
+A[Types of Communicaion]-->F[Listening]
 
 
 ```
