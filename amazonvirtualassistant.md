@@ -11,6 +11,8 @@ Some examples of big online markets are:
 - Ali Express
 - Ali Baba
 
+---
+
 ## Income Opportunities in Amazon World as an Investor
  
 ```mermaid
@@ -33,8 +35,9 @@ D[Selling Services] ---> L[Keyword Research]
 D[Selling Services] ---> M[Virtual Assistant]
 
 ```
+---
 
-## Advantages and Disadvantages of Private Label
+### Advantages and Disadvantages of Private Label
 #### Advantages
 - Brand is building
 - Asset Flip
@@ -44,10 +47,15 @@ D[Selling Services] ---> M[Virtual Assistant]
 - Long Process
 - Higher Risk Factor
 - Risk of Insolvency
+
+### Advantages and Disadvantages of Private Label
+
 #### Advantages
 - Low Risk Factor
 #### Disadvantages
 - Not higher profits
+
+---
 
 ```mermaid
 
@@ -59,15 +67,17 @@ B{Tools}-->D[Helium 10]
 B{Tools}-->E[Jungle Scout]
 
 ```
-## Type Amazon Accounts
+---
+
 ```mermaid
 
 graph TD
-
+A1(Amzone Account Types)-->A(Amazon ID)
 A(Amazon ID)-.-B(Buyer Account)
 A(Amazon ID)-.-C(Seller Account)
 
 ```
+---
 
 ### Amazon Seller Account Requirements
 
@@ -78,4 +88,4 @@ A(Amazon ID)-.-C(Seller Account)
 - Bank Statement(Just Required for Proof of Account and Address Etc)
 - Debit/Credit Card (Master or Visa)
 
-
+---
