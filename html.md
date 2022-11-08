@@ -68,8 +68,22 @@ A(HTML5) ---> I(other)
   - If the image is purely decorative, using an empty ```alt``` is best practice 
   - Ideally the ```alt``` attribute should not contain special characters unless needed
 ---
+### Self-closing Tag
+- A tag without closing tag is known as self-closing tag
+
+|Self-Closing Tags| Purpose |
+|---|---|
+|```<img/>```| Adding Images |
+|```<hr/>```||
+|```<br/>```||
+|```<link/>```||
+|```<input/>```||
+
+
+---
 ### Linking to external pages and internal sections in a webpage
 - ```a``` *(anchor)* element is used to link external pages and internal sections in a webpage
 - ```href``` attribute is used to put the address of the linking page or section 
 - Anchor text is added in opening and closing tags of an *(anchor)* element 
 - The browser displays that text as a link that is clickable
+- ```#``` is used with id value to link internal sections in a webpage
