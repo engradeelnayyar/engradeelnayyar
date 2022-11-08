@@ -68,3 +68,8 @@ A(HTML5) ---> I(other)
   - If the image is purely decorative, using an empty ```alt``` is best practice 
   - Ideally the ```alt``` attribute should not contain special characters unless needed
 ---
+### Linking to external pages to a website and internal sections in a webpage
+- ```a``` *(anchor)* element is used to link external pages to a website and internal sections in a webpage
+- ```href``` attribute is used to put the address of the linking page or section 
+- Anchor text is added in opening and closing tags of an *(anchor)* element 
+- The browser displays that text as a link that is clickable
