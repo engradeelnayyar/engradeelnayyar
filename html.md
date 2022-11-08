@@ -5,14 +5,10 @@ graph TD
 
 A[HTML Element]--> |look like this| B["&lt;h1&gt;Hello World&lt;/h1&gt;"]
 B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;h1&gt; is"| C(Opening Tag)
-B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"Helle World is"| D(Opening Tag)
+B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"Hello World is"| D(Opening Tag)
 B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;/h1&gt; is"| E(Closing Tag)
 ```
-- Besides opening and closing tags there is another tag which is self-closing tag
-- For example ```<img src="image path"/>```
-- In the above example ```img``` is element name while ```src``` is an attribute, and it has not any closing tag so it is know as self-closing tag
-
->Note: As a convention, all HTML tags are written in lowercase, for example ```<h1></h1>``` and not ```<H1></H1>```.
+> Note: As a convention, all HTML tags are written in lowercase, for example ```<h1></h1>``` and not ```<H1></H1>```.
 
 ---
 ### Heading Elements
@@ -63,4 +59,12 @@ A(HTML5) ---> G(article)
 A(HTML5) ---> H(section)
 A(HTML5) ---> I(other)
 ```
+---
+### Adding Images to website 
+- Images can be added using ```img``` element
+- ```src``` attribute is used to point a specific image's URL or image's path
+- ```alt``` attribute must be included in ```img``` elements
+  - The text inside an ```alt``` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load
+  - If the image is purely decorative, using an empty ```alt``` is best practice 
+  - Ideally the ```alt``` attribute should not contain special characters unless needed
 ---
