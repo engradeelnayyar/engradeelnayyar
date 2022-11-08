@@ -10,7 +10,7 @@ B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;/h1&gt; is"| E(Closing Tag)
 ```
 - Besides opening and closing tags there is another tag which is self-closing tag
 - For example ```<img src="image path"/>```
-- In the above example ```img``` element name while ```src``` is an attribute 
+- In the above example ```img``` is element name while ```src``` is an attribute, and it has not any closing tag so it is know as self-closing tag
 
 >Note: As a convention, all HTML tags are written in lowercase, for example ```<h1></h1>``` and not ```<H1></H1>```.
 
