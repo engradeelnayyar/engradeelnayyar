@@ -128,9 +128,6 @@ A[Anchor element]-->C[Internal Sections]
 ```html
 <p>This is a paragraph in which <a target="_blank" href="https://github.com/khurramshahzadlali">anchor element</a> is nested</p> 
 ```
-##### Output
-<p>This is a paragraph in which <a target="_blank" href="https://github.com/khurramshahzadlali">anchor element</a> is nested</p> 
-
 ---
 
 ### Nesting
