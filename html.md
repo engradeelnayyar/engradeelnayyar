@@ -24,25 +24,12 @@ B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;/h1&gt; is"| E(Closing Tag)
 |Sub Headings|```h2```,```h3```,```h4```,```h5```,```h6```|
 >*Note: Higher the Number lower the importance of Heading*
 
-#### Heading ELement Exmples
-|Heading Element| Result |
-|---|---|
-|```<h1>Hello World</h1>```|<h1>Hello World</h1>|
-|```<h2>Hello World</h2>```|<h2>Hello World</h2>|
-|```<h3>Hello World</h3>```|<h3>Hello World</h3>|
-|```<h4>Hello World</h4>```|<h4>Hello World</h4>|
-|```<h5>Hello World</h5>```|<h5>Hello World</h5>|
-|```<h6>Hello World</h6>```|<h6>Hello World</h6>|
-
 ---
 ### Paragraph Element 
 ```p``` element is used for paragraph text on websites, It looks like this:
 ```html
 <p>This is paragraph</p>
 ```
-##### Output
-<p>This is paragraph</p>
-
 ---
 
 ### Comments in HTML
@@ -59,15 +46,6 @@ B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;/h1&gt; is"| E(Closing Tag)
 -->
 <p>This is second paragraph</p>
 ```
-##### Output
-<h1>This is main Heading</h1>
-<h2>This is Sub Heading</h2>
-<p>This is paragraph</p>
-<!-- This is comment
-<h2>This is Second Sub Heading</h2>
--->
-<p>This is second paragraph</p>
-
 ---
 ### HTML5 Elements 
 - HTML5 introduced descriptive elements
@@ -92,8 +70,7 @@ A(HTML5) ---> I(other)
 
 | Element | Attributes |
 | --- | --- |
-|```img```|  ```src``` , ```alt```, ```loding```|         
-
+|```img```|  ```src``` , ```alt```, ```loading```|         
 
 
 - Images can be added using ```img``` element
@@ -108,10 +85,6 @@ A(HTML5) ---> I(other)
 ```html
 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techradar.com%2Fbest%2Ffree-stock-photos&psig=AOvVaw0x6Cr2lmeGbRJGbuYziftM&ust=1668060896024000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCCj7O5oPsCFQAAAAAdAAAAABAI" width="100%" alt="A woman taking photos">
 ```
-##### output
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techradar.com%2Fbest%2Ffree-stock-photos&psig=AOvVaw0x6Cr2lmeGbRJGbuYziftM&ust=1668060896024000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCCj7O5oPsCFQAAAAAdAAAAABAI" width="100%" alt="A woman taking photos">
-
-
 ---
 
 
@@ -160,23 +133,6 @@ A[Anchor element]-->C[Internal Sections]
 
 ---
 
-### Scrimba Challenge Example
-
-```html
-<h1>Humans have reached Mars</h1>
-<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
-<h3>The Starship rocket successfully landed on the red planet this morning.</h3>
-<p>After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans have set foot on a planet other than Earth.</p>
-<img src="https://www.universetoday.com/wp-content/uploads/2010/10/manned-mission-mars-illustration.jpg" width="100%">
-```
-##### Output
-<h1>Humans have reached Mars</h1>
-<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
-<h3>The Starship rocket successfully landed on the red planet this morning.</h3>
-<p>After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans have set foot on a planet other than Earth.</p>
-<img src="https://www.universetoday.com/wp-content/uploads/2010/10/manned-mission-mars-illustration.jpg" width="50%">
-
----
 ### Nesting
 
 ```html
@@ -226,18 +182,6 @@ C[type] --- J(file)
 
 ```
 
-### Scrimba Challenge Example
-
-```html
-<h1>Welcome</h1>
-<p>You have been granted access to the platform. 
-Please create an account.</p>
-<input type="text" placeholder="Enter username">
-<input type="password" placeholder="Enter password">
-<input type="file">
-<button>Sign Up!</button>
-
-```
 
 
 
