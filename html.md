@@ -18,8 +18,8 @@ B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;/h1&gt; is"| E(Closing Tag)
 |Main Heading| ```h1```|
 |Sub Headings|```h2```,```h3```,```h4```,```h5```,```h6```|
 >*Note: Higher the Number lower the importance of Heading*
----
-### Heading ELement Exmples
+
+#### Heading ELement Exmples
 |Heading Element| Result |
 |---|---|
 |```<h1>Hello World</h1>```|<h1>Hello World</h1>|
@@ -35,11 +35,34 @@ B["&lt;h1&gt;Hello World&lt;/h1&gt;"]-.->|"&lt;/h1&gt; is"| E(Closing Tag)
 ```html
 <p>This is paragraph</p>
 ```
+##### Output
+<p>This is paragraph</p>
+
 ---
+
 ### Comments in HTML
 - Comments in HTML start with ```<!--``` and end with a ```-->```
 - Commenting is a way to leave comments for other developers
 - Commenting is the convinent way to make code inactive without having to delete it entirely
+
+```html
+<h1>This is main Heading</h1>
+<h2>This is Sub Heading</h2>
+<p>This is paragraph</p>
+<!-- This is comment
+<h2>This is Second Sub Heading</h2>
+-->
+<p>This is second paragraph</p>
+```
+##### Output
+<h1>This is main Heading</h1>
+<h2>This is Sub Heading</h2>
+<p>This is paragraph</p>
+<!-- This is comment
+<h2>This is Second Sub Heading</h2>
+-->
+<p>This is second paragraph</p>
+
 ---
 ### HTML5 Elements 
 - HTML5 introduced descriptive elements
@@ -61,13 +84,30 @@ A(HTML5) ---> I(other)
 ```
 ---
 ### Adding Images to website 
+
+| Element | Attributes |
+| --- | --- |
+|```img```|  ```src``` , ```alt```, ```loding```|         
+
+
+
 - Images can be added using ```img``` element
 - ```src``` attribute is used to point a specific image's URL or image's path
 - ```alt``` attribute must be included in ```img``` elements
   - The text inside an ```alt``` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load
   - If the image is purely decorative, using an empty ```alt``` is best practice 
   - Ideally the ```alt``` attribute should not contain special characters unless needed
+
+```html
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techradar.com%2Fbest%2Ffree-stock-photos&psig=AOvVaw0x6Cr2lmeGbRJGbuYziftM&ust=1668060896024000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCCj7O5oPsCFQAAAAAdAAAAABAI" width="100%" alt="A woman taking photos">
+```
+##### output
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techradar.com%2Fbest%2Ffree-stock-photos&psig=AOvVaw0x6Cr2lmeGbRJGbuYziftM&ust=1668060896024000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCCj7O5oPsCFQAAAAAdAAAAABAI" width="100%" alt="A woman taking photos">
+
+
 ---
+
+
 ### Self-closing Tag
 - A tag without closing tag is known as self-closing tag
 
@@ -82,8 +122,31 @@ A(HTML5) ---> I(other)
 
 ---
 ### Linking to external pages and internal sections in a webpage
+
+```mermaid
+
+graph LR
+
+A[Anchor element]-->B[External Pages]
+A[Anchor element]-->C[Internal Sections]
+
+```
+
+| Element | Attributes |
+| --- | --- |
+|```a```|  ```href``` , ```target="_blank"```,|
+
+
+
 - ```a``` *(anchor)* element is used to link external pages and internal sections in a webpage
 - ```href``` attribute is used to put the address of the linking page or section 
+- ```target``` attribute with value ```_blank``` is used to open the page in new tab
 - Anchor text is added in opening and closing tags of an *(anchor)* element 
 - The browser displays that text as a link that is clickable
 - ```#``` is used with id value to link internal sections in a webpage
+- *(anchor)* element can be used within text
+```html
+<p>This is a paragraph in which <a target="_blank" href="https://github.com/khurramshahzadlali">anchor element</a> is nested</p> 
+```
+##### Output
+<p>This is a paragraph in which <a target="_blank" href="https://github.com/khurramshahzadlali">anchor element</a> is nested</p> 
