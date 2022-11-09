@@ -48,18 +48,41 @@ D[Selling Services] ---> M[Virtual Assistant]
 
 ---
 
-### Tools for Winning Products
+### Tools for Product Hunting
 
 ```mermaid
 
-graph TD
+flowchart TD
 
 A(Winning Products)-.-B{Tools}
 B{Tools}-->C[MerchantWords]
 B{Tools}-->D[Helium 10]
+B{Tools}-->F[Keepa]
 B{Tools}-->E[Jungle Scout]
+C[MerchantWords]-.->G[Keyword Research]-.->H[Lisiting Creation]
+D[Helium 10]-.->G[Keyword Research]
+D[Helium 10]-.->I[Keyword Ranking]
+D[Helium 10]-.->M[X-Ray Report]
+D[Helium 10]-.->N[Magnet]
+D[Helium 10]-.->O[Cerebro]
+D[Helium 10]-.->J[Competitor's Analysis]
+F[Keepa]-.->J[Competitor's Analysis]
+F[Keepa]-.->K[Back Log]
+E[Jungle Scout]-.->L[Sales Data]
+
+
 
 ```
+#### Helium 10 X-Ray Report
+```mermaid
+
+flowchart TD
+
+D[Helium 10]-.->M[X-Ray Report]
+
+```
+
+
 ---
 ### Amazon Account Types
 
@@ -69,7 +92,10 @@ B{Tools}-->E[Jungle Scout]
 graph TD
 A1(Amzone Account Types)-->A(Amazon ID)
 A(Amazon ID)-.-B(Buyer Account)
-A(Amazon ID)-.-C(Seller Account)
+A(Amazon ID)-.- C(Seller Account)
+C(Seller Account)-.->|full access |D(Parent Account)
+C(Seller Account)-.->|limited access | E(Child Account)
+E(Child Account) ---| how to give access to child account |F(Settings)-->G{User Permissions}
 
 ```
 ---
