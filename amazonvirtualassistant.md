@@ -62,9 +62,6 @@ B{Tools}-->E[Jungle Scout]
 C[MerchantWords]-.->G[Keyword Research]-.->H[Lisiting Creation]
 D[Helium 10]-.->G[Keyword Research]
 D[Helium 10]-.->I[Keyword Ranking]
-D[Helium 10]-.->M[X-Ray Report]
-D[Helium 10]-.->N[Magnet]
-D[Helium 10]-.->O[Cerebro]
 D[Helium 10]-.->J[Competitor's Analysis]
 F[Keepa]-.->J[Competitor's Analysis]
 F[Keepa]-.->K[Back Log]
@@ -73,12 +70,15 @@ E[Jungle Scout]-.->L[Sales Data]
 
 
 ```
-#### Helium 10 X-Ray Report
+#### Helium 10 Tools
 ```mermaid
 
 flowchart TD
 
-D[Helium 10]-.->M[X-Ray Report]
+A[Helium 10]-.->B[X-Ray Report]
+A[Helium 10]-.->C[Black Box]
+A[Helium 10]-.->D[Magnet]
+A[Helium 10]-.->E[Cerebro]
 
 ```
 
