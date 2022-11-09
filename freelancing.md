@@ -14,15 +14,3 @@ A[Freelance Market Places]-->F[Clssified Ad-Site]
 
 ```
 ---
-```mermaid
-
-graph TD
-
-A[Types of Communicaion]-->B[Verbal]
-A[Types of Communicaion]-->C[Non-Verbal]
-A[Types of Communicaion]-->D[Written]
-A[Types of Communicaion]-->E[Visual]
-A[Types of Communicaion]-->F[Listening]
-
-
-```
