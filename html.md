@@ -205,6 +205,38 @@ H("&lt;p&gt;")-->j("&lt;a&gt;")
 ```
 ---
 
+### Intractive Elements 
+
+- ```button```
+- ```Input```
+
+```mermaid
+
+graph TD
+
+A[input] --> B(Attribute)
+B(Attribute) ----> C[type]
+B(Attribute) --> D[placeholder]
+C[type] --- E(text)
+C[type] --- F(password)
+C[type] --- G(date)
+C[type] --- H(time)
+C[type] --- I(color)
+C[type] --- J(file)
+
+```
+
+### Scrimba Challenge Example
+
+```html
+<h1>Welcome</h1>
+<p>You have been granted access to the platform. 
+Please create an account.</p>
+<button>Sign Up!</button>
+```
+
+
+
 
 
 
