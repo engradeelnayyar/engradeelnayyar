@@ -1,3 +1,8 @@
+## HTML 
+- Hyper Text Markup Language
+- Created in **1993**
+
+
 ### HTML Element
 ```mermaid
 
@@ -97,7 +102,9 @@ A(HTML5) ---> I(other)
   - The text inside an ```alt``` attribute is used for screen readers to improve accessibility and is displayed if the image fails to load
   - If the image is purely decorative, using an empty ```alt``` is best practice 
   - Ideally the ```alt``` attribute should not contain special characters unless needed
-
+- Hack to behave image responsive use ```width``` attribute with value ```100%```
+- Images can be borrowed online or some online storage
+- Base64 can also be used to render the images source
 ```html
 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techradar.com%2Fbest%2Ffree-stock-photos&psig=AOvVaw0x6Cr2lmeGbRJGbuYziftM&ust=1668060896024000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCLCCj7O5oPsCFQAAAAAdAAAAABAI" width="100%" alt="A woman taking photos">
 ```
@@ -150,3 +157,55 @@ A[Anchor element]-->C[Internal Sections]
 ```
 ##### Output
 <p>This is a paragraph in which <a target="_blank" href="https://github.com/khurramshahzadlali">anchor element</a> is nested</p> 
+
+---
+
+### Scrimba Challenge Example
+
+```html
+<h1>Humans have reached Mars</h1>
+<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
+<h3>The Starship rocket successfully landed on the red planet this morning.</h3>
+<p>After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans have set foot on a planet other than Earth.</p>
+<img src="https://www.universetoday.com/wp-content/uploads/2010/10/manned-mission-mars-illustration.jpg" width="100%">
+```
+##### Output
+<h1>Humans have reached Mars</h1>
+<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
+<h3>The Starship rocket successfully landed on the red planet this morning.</h3>
+<p>After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans have set foot on a planet other than Earth.</p>
+<img src="https://www.universetoday.com/wp-content/uploads/2010/10/manned-mission-mars-illustration.jpg" width="50%">
+
+---
+### Nesting
+
+```html
+<div>
+  <h1>Humans have reached Mars</h1>
+  <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
+  <h3>The Starship rocket successfully landed on the red planet this morning.</h3>
+  <p>After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans have set foot on a planet other than Earth.</p>
+  <img src="https://www.universetoday.com/wp-content/uploads/2010/10/manned-mission-mars-illustration.jpg" width="100%">
+</div>  
+  
+```
+#### HTML document tree
+```mermaid
+graph TD
+
+A("&lt;div&gt;")-->B("&lt;div&gt;")
+A("&lt;div&gt;")-->C("&lt;div&gt;")
+B("&lt;div&gt;")-->D("&lt;img&gt;")
+B("&lt;div&gt;")-->E("&lt;h3&gt;")
+C("&lt;div&gt;")-->F("&lt;div&gt;")
+C("&lt;div&gt;")-->G("&lt;p&gt;")
+C("&lt;div&gt;")-->H("&lt;p&gt;")
+C("&lt;div&gt;")-->I("&lt;h2&gt;")
+H("&lt;p&gt;")-->j("&lt;a&gt;")
+```
+---
+
+
+
+
+
