@@ -89,11 +89,6 @@ A[Helium 10]-.->E[Cerebro]
 
 #### Keepa 
 - Mainly Used in Dropshipping and Wholesale platform
-```mermaid 
-
-graph TD
-
-A[keepa]
 
 ---
 ### Amazon Account Types
