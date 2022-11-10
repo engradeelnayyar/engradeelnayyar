@@ -65,12 +65,13 @@ D[Helium 10]-.->I[Keyword Ranking]
 D[Helium 10]-.->J[Competitor's Analysis]
 F[Keepa]-.->J[Competitor's Analysis]
 F[Keepa]-.->K[Back Log]
-E[Jungle Scout]-.->L[Sales Data]
+E[Jungle Scout]-.->L[Sales Data]-->M(Oppertunity Score)
 
 
 
 ```
 #### Helium 10 Tools
+- Mainly used for private label
 ```mermaid
 
 flowchart TD
@@ -81,7 +82,18 @@ A[Helium 10]-.->D[Magnet]
 A[Helium 10]-.->E[Cerebro]
 
 ```
+#### Google Trends 
+- Google Trends are used to know whether the products are seasonal or not
+- First Select Market
+- Any Product that is above 25 is not seasonal
 
+#### Keepa 
+- Mainly Used in Dropshipping and Wholesale platform
+```mermaid 
+
+graph TD
+
+A[keepa]
 
 ---
 ### Amazon Account Types
